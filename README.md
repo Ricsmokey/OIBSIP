@@ -1,33 +1,83 @@
-# OIBSIP
-## Internship Project
+# OIBSIP — Machine Learning Internship Projects
 
-# 1. Iris Flower Classification
-## Goal:
-### Classify Iris flowers into three species (Setosa, Versicolor, and Virginica) based on sepal and petal measurements.
-## Model Used: K-Nearest Neighbors (KNN) Classifier.
-## Key Features:
-### 1. Automated encoding of species categories.
-### 2. Visual evaluation using a Confusion Matrix heatmap.
-### 3. Detailed classification report (Precision, Recall, F1-Score).
+Three machine learning projects completed during an Oasis Infobyte internship. Each project covers a different ML task — classification, regression, and sales forecasting using real-world datasets.
 
-# 2. Car Price Prediction
-## Goal: Predict the selling price of used cars based on factors like mileage, fuel type, and transmission.
-## Model Used: Linear Regression.
-## Key Features:
-### 1. Feature engineering: Converted 'Year' into a 'Car_Year_Usage' column for better model relevance.
-### 2. Categorical encoding for fuel and transmission types.
-### 3. Performance visualization comparing Actual Price vs. Predicted Selling Price.
+---
 
-# 3. Sales Prediction (Advertising Data)
-## Goal: Forecast sales based on advertising spend across TV, Radio, and Newspaper channels.
-## Model Used: Linear Regression.
-## Key Features:
-### 1. Analysis of the impact of different media on total sales.
-### 2. Model evaluation using R^2 Score and Mean Absolute Error (MAE).
-### 3. Visual representation of prediction accuracy through scatter plots.
+## Projects
 
-## Technologies Used
+### 1. Iris Flower Classification
+
+**Goal:** Classify Iris flowers into three species (Setosa, Versicolor, Virginica) based on sepal and petal measurements.
+
+**Model:** K-Nearest Neighbors (KNN) Classifier
+
+**Key highlights:**
+- Automated encoding of species categories
+- Model evaluation with a confusion matrix heatmap
+- Detailed classification report covering Precision, Recall, and F1-Score
+
+**Files:** `iris.py`, `iris.csv`, `Iris_Confusion_Matrix.jpeg`
+
+---
+
+### 2. Car Price Prediction
+
+**Goal:** Predict the selling price of used cars based on mileage, fuel type, transmission, and age.
+
+**Model:** Linear Regression
+
+**Key highlights:**
+- Feature engineering — converted the `Year` column into a `Car_Year_Usage` column for better model relevance
+- Categorical encoding for fuel type and transmission
+- Scatter plot comparing actual vs predicted selling prices
+
+**Files:** `Car Price.py`, `cardata.csv`, `Car_Price_Comparison.jpeg`
+
+---
+
+### 3. Sales Prediction from Advertising Spend
+
+**Goal:** Forecast sales revenue based on advertising spend across TV, Radio, and Newspaper channels.
+
+**Model:** Linear Regression
+
+**Key highlights:**
+- Correlation heatmap showing the impact of each media channel on sales
+- Model evaluation using R² Score and Mean Absolute Error (MAE)
+- Scatter plot of predicted vs actual sales figures
+
+**Files:** `Advertising.py`, `Advertising.csv`, `Advertising_vs_Sales.jpeg`, `advertising_Correlation_Heatmap.jpeg`, `advertising_Sales_Prediction.jpeg`
+
+---
+
+## Tech Stack
+
 • Language: Python
 • Libraries: * Pandas & NumPy (Data Manipulation)
 • Scikit-learn (Machine Learning & Evaluation)
 • Matplotlib & Seaborn (Data Visualization)
+
+---
+
+## Setup & Run
+
+```bash
+git clone https://github.com/Ricsmokey/OIBSIP.git
+cd OIBSIP
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+Run each project individually:
+
+```bash
+python iris.py
+python "Car Price.py"
+python Advertising.py
+```
+
+---
+
+## Author
+
+**Akorede Kareem** — [github.com/Ricsmokey](https://github.com/Ricsmokey)
